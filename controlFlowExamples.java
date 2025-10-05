@@ -23,23 +23,13 @@ public class controlFlowExamples {
     /*
     ** cth: switch case
     */ 
-    String namaBulan;
-    switch (bulan) {
-      case 1:
-        namaBulan = "Januari";
-        break;
-      case 2:
-        namaBulan = "Februari";
-        break;
-      case 3:
-        namaBulan = "Maret";
-        break;
-      case 4:
-        namaBulan = "April";
-        break;
-      default:
-        namaBulan = "Bulan Lain (di luar kasus 1-4)";
-    }
+    String namaBulan = switch (bulan) {
+      case 1 -> "Januari";
+      case 2 -> "Februari";
+      case 3 -> "Maret";
+      case 4 -> "April";
+      default -> "Bulan Lain (di luar kasus 1-4)";
+    };
 
     System.out.println("Bulan ke-" + bulan + " adalah: " + namaBulan);
 
