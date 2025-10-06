@@ -13,7 +13,8 @@ public class tipeVariabelDemo {
     ** long: Digunakan untuk bilangan bulat yang sangat besar (64-bit).
     ** Wajib ditambahkan suffix 'L' di akhir angka.
     */ 
-    long populasiDunia = 8000000000L;
+    // long populasiDunia = 80000000000L; 
+    long populasiDunia = 28L;
     System.out.println("   Tipe long (Populasi Dunia): " + populasiDunia);
 
     /*
@@ -27,14 +28,14 @@ public class tipeVariabelDemo {
     ** tipe bilangan pecahan/decimal (Floating Point)
     ** double: Tipe data paling umum untuk desimal, presisi tinggi (64-bit).
     */ 
-    double hargaBarang = 99.99;
+    double hargaBarang = 119999.99;
     System.out.println("\n2. Tipe double (Harga Barang): " + hargaBarang);
 
     /*
     ** float: Presisi lebih rendah (32-bit).
     ** Wajib ditambahkan suffix 'f' di akhir angka.
     */ 
-    float suhu = 36.5f;
+    float suhu = 3666666.5f;
     System.out.println("   Tipe float (Suhu Tubuh): " + suhu);
 
 
@@ -50,7 +51,7 @@ public class tipeVariabelDemo {
     ** String: Digunakan untuk menampung serangkaian karakter (teks), menggunakan kutip ganda ("").
     ** String sebenarnya adalah Class, bukan tipe data primitif.
     */ 
-    String namaLengkap = "Budi Santoso";
+    String namaLengkap = "Rendy Aja lah lorem ipsum dolor sit amet";
     System.out.println("   Tipe String (Nama Lengkap): " + namaLengkap);
 
 
@@ -71,7 +72,7 @@ public class tipeVariabelDemo {
     */
     Object dataCampuran;
     // Object yang bisa menampung nilai String
-    dataCampuran = "Ini adalah teks"; 
+    dataCampuran = 99.8; 
     System.out.println("\n5. Tipe Object (Contoh Teks): " + dataCampuran);
     
     // Object ini juga bisa menampung nilai Integer
